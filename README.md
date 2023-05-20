@@ -1,4 +1,5 @@
-# Codes for Stochastic Bridges as Effective Regularizers for Parameter-Efficient Tuning
+# Stochastic Bridges as Effective Regularizers for Parameter-Efficient Tuning
+Code for ACL 2023 Findings paper Stochastic Bridges as Effective Regularizers for Parameter-Efficient Tuning.
 ## 0. Environment Setup
 1. Create a new environment in conda:
 ```bash
