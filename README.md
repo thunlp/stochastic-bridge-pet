@@ -1,5 +1,5 @@
 # Stochastic Bridges as Effective Regularizers for Parameter-Efficient Tuning
-Code for ACL 2023 Findings paper Stochastic Bridges as Effective Regularizers for Parameter-Efficient Tuning.
+Code for ACL 2023 Findings paper [Stochastic Bridges as Effective Regularizers for Parameter-Efficient Tuning](https://arxiv.org/abs/2305.17670).
 ## 0. Environment Setup
 1. Create a new environment in conda:
 ```bash
@@ -79,4 +79,14 @@ For PETs with SDE regularizer, the scripts are placed at `scripts/glue/sde/`. Yo
 task=RTE bridge_type=brown_sde bridge_weight=0.5 bash scripts/glue/pdf/glue_prompt_bert.sh
 # Prompt tuning for Megatron-BERT on few-shot GLUE
 task=RTE bridge_type=brown_sde bridge_weight=0.5 bash scripts/glue/pdf/glue_prompt_bert.sh
+```
+
+## 4. Citation
+```bibtext
+@article{chen2023stochastic,
+  title={Stochastic Bridges as Effective Regularizers for Parameter-Efficient Tuning},
+  author={Chen, Weize and Han, Xu and Lin, Yankai and Liu, Zhiyuan and Sun, Maosong and Zhou, Jie},
+  journal={arXiv preprint arXiv:2305.17670},
+  year={2023}
+}
 ```
